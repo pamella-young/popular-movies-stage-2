@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textHeader">48sp</dimen>
+    
+    <dimen name="textLarge">24sp</dimen>
+    <dimen name="textMedium">16sp</dimen>
+    
+    
+    <dimen name="marginSmall">12dp</dimen>
+    <dimen name="marginSmallMed">20dp</dimen>
+    <dimen name="marginMedium">24dp</dimen>
+
+    <dimen name="paddingSmallMed">20dp</dimen>
+    <dimen name="paddingMedium">24dp</dimen>
+</resources>

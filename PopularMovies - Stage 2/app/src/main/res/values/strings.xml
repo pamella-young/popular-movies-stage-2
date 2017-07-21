@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="popularity_menu">Sort By Popularity</string>
+    <string name="ranking_menu">Sort By Highest Ranking</string>
+    <string name="notOnline">You are not online</string>
+</resources>
