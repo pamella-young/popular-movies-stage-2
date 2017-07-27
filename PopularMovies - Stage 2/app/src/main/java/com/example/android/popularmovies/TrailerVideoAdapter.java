@@ -2,6 +2,7 @@ package com.example.android.popularmovies;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +45,7 @@ public class TrailerVideoAdapter extends RecyclerView.Adapter<TrailerVideoAdapte
         }
 
         void bind(int listIndex){
-            mTrailerTitleTextView.setText("Trailer " + String.valueOf(listIndex));
+            mTrailerTitleTextView.setText("Trailer " + String.valueOf(listIndex + 1));
         }
 
         @Override
@@ -68,11 +69,13 @@ public class TrailerVideoAdapter extends RecyclerView.Adapter<TrailerVideoAdapte
 
     public void onBindViewHolder(TrailerVideoAdapterViewHolder holder, int position) {
         holder.bind(position);
+        Log.v(TAG,"Position : " + position);
     }
 
     @Override
     public int getItemCount() {
         if(mTrailerData == null) return 0;
+        Log.v(TAG,"number of item : " + String.valueOf(mTrailerData.size()));
         return mTrailerData.size();
     }
 

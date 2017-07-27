@@ -90,7 +90,7 @@ public class NetworkUtils {
         return url;
     }
 
-    public static URL buildReviewUrl(int movieId){
+    public static URL buildReviewUrl(String movieId){
         Uri builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
                 .appendPath(String.valueOf(movieId))
                 .appendPath(REVIEWS)
