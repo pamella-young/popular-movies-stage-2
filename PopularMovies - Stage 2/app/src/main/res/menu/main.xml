@@ -11,4 +11,10 @@
         android:title="@string/ranking_menu"
         android:orderInCategory="2"
         />
+
+    <item
+        android:id="@+id/sort_by_favorite"
+        android:title="My Favorites"
+        android:orderInCategory="3"
+        />
 </menu>
